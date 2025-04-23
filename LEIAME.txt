@@ -1,0 +1,17 @@
+1) Copiar o arquivo "ZMAN_1_X_X_752_CZ.EXL" para /Zanthus/Zeus/pdvJava/ e extrair:
+
+tar -zxvf ZMAN_1_X_X_752_CZ.EXL
+
+2) Copiar o arquivo "moduloPHPPDV_2_14_171_149a_25058_php_5_6.zip" para /Zanthus/Zeus/pdvJava/GERAL/SINCRO/WEB/moduloPHPPDV e extrair:
+
+unzip -o moduloPHPPDV_2_14_171_149a_25058_php_5_6.zip
+
+3) Extrair o arquivo "so_u64.zip" e copiar o conteúdo de so_u64 para /Zanthus/Zeus/lib_u64
+
+unzip -o so_u64.zip 
+cp -rfv so_u64/* /Zanthus/Zeus/lib_u64
+ldconfig
+
+4) Recomendado: Reiniciar
+
+reboot
